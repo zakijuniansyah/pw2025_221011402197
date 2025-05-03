@@ -19,7 +19,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa WHERE id = $_GET[id]");
         <li><?= $mhs["email"]; ?></li>
         <li><?= $mhs["jurusan"]; ?></li>
         <li><a href="">Ubah</a> | <a href="">Hapus</a></li>
-        <li><a href="latihan2.php">Kembali Kehalaman Detail</a></li>
+        <li><a href="latihan2.php">Kembali Kehalaman Daftar Mahasiswa</a></li>
     </ul>
     <?php endforeach; ?>
 </body>
