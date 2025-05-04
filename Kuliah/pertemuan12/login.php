@@ -47,6 +47,8 @@
         </label>
         <br><br>
         <button type="submit" name="login">Login</button>
+        <br><br>
+        <button type="submit"><a href="registrasi.php" style="text-decoration: none; color:black">Registrasi</a></button>
     </form>
 </body>
 </html>
